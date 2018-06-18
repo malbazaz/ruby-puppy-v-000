@@ -11,13 +11,13 @@ class Dog
   def self.all
     new_array = []
     @@all.each do |name1|
-    new_array << name1.name 
+    new_array << name1 
     end
     puts new_array 
   end 
   
   def name 
-  puts @name 
+  puts @name
   end 
   
   def self.clear_all
