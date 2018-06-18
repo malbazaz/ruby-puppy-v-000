@@ -9,7 +9,7 @@ class Dog
   end 
   
   def self.all
-    new_array
+    new_array = []
     @@all.each do |name1|
     new_array << name1.name 
     end
