@@ -13,7 +13,7 @@ class Dog
   end 
   
   def name 
-  put @name 
+  puts @name 
   end 
   
 end 
