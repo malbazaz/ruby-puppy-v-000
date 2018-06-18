@@ -9,9 +9,11 @@ class Dog
   end 
   
   def self.all
+    new_array
     @@all.each do |name1|
-    puts name1.name 
+    new_array << name1.name 
     end
+    puts new_array 
   end 
   
   def name 
